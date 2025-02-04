@@ -1,0 +1,39 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- Left-aligned Navbar Brand -->
+    <a class="navbar-brand" routerLink="/">Navbar</a>
+  
+    <!-- Navbar Toggler -->
+    <button 
+      class="navbar-toggler" 
+      type="button" 
+      (click)="isNavbarCollapsed = !isNavbarCollapsed"
+      [attr.aria-expanded]="isNavbarCollapsed ? 'true' : 'false'"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <!-- Right-aligned Navbar Links -->
+    <div class="collapse navbar-collapse justify-content-end" [ngClass]="{'show': isNavbarCollapsed}" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/" routerLinkActive="active">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/About" routerLinkActive="active"  (click)="scrollToAbout('about')">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/Services" routerLinkActive="active" (click)="scrollToAbout('services')">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/Projects" routerLinkActive="active">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/Reviews" routerLinkActive="active">Reviews</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/Contacts" routerLinkActive="active">Contacts</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
