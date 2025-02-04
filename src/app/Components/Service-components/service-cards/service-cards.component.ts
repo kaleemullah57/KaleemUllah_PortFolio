@@ -24,6 +24,6 @@ export class ServiceCardsComponent implements AfterViewInit {
         start: "top 90%", // Animation starts when the element enters the viewport (90% from top)
         toggleActions: "play none none reverse" // Reverses when scrolling up
       }
-    })
+    });
   }
 }
