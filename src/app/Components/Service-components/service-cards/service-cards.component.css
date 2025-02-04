@@ -85,5 +85,26 @@
 @media screen and (max-width: 576px) {
     .image-container .rows .images {
         flex: 1 1 100%;
+        /* background-color: red; */
+    }
+}
+
+
+
+@media screen and (max-width : 470px) {
+    .image-container .rows {
+        width: 100%;
+        /* background-color: blue; */
+        margin-left: -50px;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width : 396px) {
+    .image-container .rows {
+        width: 100%;
+        /* background-color: blue; */
+        margin-left: 0px;
+        padding: 0;
     }
 }

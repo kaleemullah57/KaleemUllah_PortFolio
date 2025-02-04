@@ -109,3 +109,11 @@
         color: white;
     }
 }
+
+
+
+@media screen and (max-width : 470px) {
+    .about-rightContainer {
+        width: 300px;
+    }
+}
