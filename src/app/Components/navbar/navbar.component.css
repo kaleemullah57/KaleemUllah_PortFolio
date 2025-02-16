@@ -117,3 +117,20 @@ a {
         color: black;
     }
 }
+
+
+
+
+@media screen and (max-width: 430px) {
+    .navbar {
+        padding: 0px 10px;
+        width: 100%; /* Ensure navbar spans the entire screen */
+        display: flex;
+        justify-content: space-between; /* Align items to left and right */
+        align-items: center;
+        background-color: white;
+        width:  280px;
+        height: auto;
+        padding: 20px 0px 0px 0px;
+    }
+}

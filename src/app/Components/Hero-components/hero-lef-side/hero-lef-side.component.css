@@ -19,7 +19,7 @@
     line-height: 25px;
     color: rgb(209, 213, 219);
     font-family:serif;
-    text-align: justify;
+    /* text-align: justify; */
     /* margin: 20px 0px 0px 0px; */
 }
 
@@ -41,4 +41,34 @@
     margin: 20px 0px 0px 10px;
 }
 
+
+
+
+
+
+
+
+
+@media screen and (max-width: 700px) {
+    .name-section .heading{
+      font-size: 30px;
+      line-height: 1;
+      margin: 0%;
+      /* padding: 0%; */
+    }
+    .name-section h2{
+        font-size: 40px;
+        line-height: 1;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .name-section .heading{
+        font-size: 20px;
+      }
+      .name-section h2{
+          font-size: 30px;
+      }
+}
 

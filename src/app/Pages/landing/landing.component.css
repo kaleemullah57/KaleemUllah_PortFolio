@@ -67,7 +67,8 @@
 
 /* Services Section CSS */
 .services-section,
-.projects-section {
+.projects-section,
+.skills-section {
     width: 100%;
     height: auto;
     padding: 20px 10px; /* Adjusted for smaller devices */
@@ -79,6 +80,11 @@
     margin-bottom: 40px;
 }
 .projects-section .heading {
+    text-align: center;
+    height: 40px;
+    margin-bottom: 40px;
+}
+.skills-section .heading {
     text-align: center;
     height: 40px;
     margin-bottom: 40px;
@@ -147,6 +153,24 @@
 @media screen and (max-width: 576px) {
     .container-fluid {
         padding: 0px 10px;
+    }
+
+    .hero-section {
+        height: auto;
+        padding: 0;
+    }
+
+    .about-section .heading,
+    .services-section .heading {
+        font-size: 1.2rem;
+    }
+}
+
+
+@media screen and (max-width < 406px) {
+    .container-fluid {
+        padding: 0px 0px;
+        width: 100%;
     }
 
     .hero-section {
