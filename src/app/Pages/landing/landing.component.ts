@@ -8,6 +8,7 @@ import { ServiceCardsComponent } from "../../Components/Service-components/servi
 import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { NavbarComponent } from '../../Components/navbar/navbar.component';
 import { Console } from 'console';
+import { ProjectsComponent } from '../../Components/Projects/projects/projects.component';
 
 
 
@@ -25,6 +26,7 @@ import { Console } from 'console';
     AboutLeftSideComponent,
     AboutRightSideComponent,
     ServiceCardsComponent,
+    ProjectsComponent,
     ReactiveFormsModule
   ],
   templateUrl: './landing.component.html',
