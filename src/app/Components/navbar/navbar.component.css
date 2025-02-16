@@ -1,20 +1,24 @@
-
-.navbar{
+.navbar {
     padding: 0px 120px 0px 70px;
     height: 60px;
-    background-color: rgb(15,7,21) !important;
+    background-color: rgb(15, 7, 21) !important;
     position: sticky;
     top: 0;
     left: 0;
     z-index: 1000;
+
+    display: flex; /* Flexbox for alignment */
+    justify-content: space-between;
+    align-items: center;
 }
-a{
+
+a {
     font-size: 20px;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     color: white;
     cursor: pointer;
     text-decoration: none;
-    transition: color   0.3 ease-in-out;
+    transition: color 0.3s ease-in-out;
 }
 
 .navbar-nav .nav-link {
@@ -48,19 +52,68 @@ a{
     left: 0;
 }
 
-
-
-@media screen and (max-width : 800px) {
-    /* .navbar-brand{
-        background-color: red;
-    } */
-    .navbar .navbar-toggler{
-        margin-right: -80px;
-    }
-    .navbar .collapse{
+/* Responsive Design */
+@media screen and (max-width: 800px) {
+    .navbar {
+        /* padding: 0px 20px; */
         background-color: white;
+        width:  500px;
+        height: auto;
+        padding: 20px 0px 0px 0px;
     }
-    .navbar .collapse .nav-item .nav-link{
+
+    .navbar-brand {
+        /* order: 2;  Ensure brand stays on the left */
+        color: black;
+    }
+
+    .navbar-toggler {
+        background-color: white;
+        /* order: 1; Ensure toggle button stays on the right */
+    }
+
+    .navbar .collapse {
+        background-color: rgb(161, 147, 147);
+        width: 100%;
+    }
+
+    .navbar .collapse .nav-item .nav-link {
+        color: black;
+        /* background-color: white; */
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .navbar {
+        padding: 0px 10px;
+        width: 100%; /* Ensure navbar spans the entire screen */
+        display: flex;
+        justify-content: space-between; /* Align items to left and right */
+        align-items: center;
+        background-color: white;
+        width:  400px;
+        height: auto;
+        padding: 20px 0px 0px 0px;
+    }
+
+    .navbar-brand {
+        /* order: 1; */
+        color: rgb(15, 7, 21);
+    }
+
+    .navbar-toggler {
+        /* order: 2; */
+        background-color: white;
+        color: rgb(15, 7, 21);
+        margin-right: 0;
+    }
+
+    .navbar .collapse {
+        background-color: white;
+        width: 100%;
+    }
+
+    .navbar .collapse .nav-item .nav-link {
         color: black;
     }
 }
