@@ -28,15 +28,25 @@
 
 
 
-@media screen and (max-width: 1100px) {
-    .about-left{
-        margin: 20% 0px 0px 0px;
+@media screen and (max-width: 700px) {
+    .about-left  h2{
+      font-size: 40px;
+      line-height: 1.5;
+      margin: 0%;
+      /* padding: 0%; */
+    }
+    .name-section h2{
+        font-size: 40px;
+        line-height: 1;
     }
 }
 
-/* @media screen and (max-width : 470px) {
-    .about-left{
-        width: 100%;
-        background-color: red;
-    }
-} */
+
+@media screen and (max-width: 600px) {
+    .about-left  h2{
+        font-size: 30px;
+      }
+      /* .name-section h2{
+          font-size: 30px;
+      } */
+}
