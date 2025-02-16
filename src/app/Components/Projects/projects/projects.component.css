@@ -96,57 +96,125 @@
 
 
 
-
-
-
-/*  is this responsive */
-/* Responsive Adjustments */
-
-/* For screens less than 992px: 2 items per row */
-
-@media screen and (max-width: 1130px) {
+@media screen and (max-width: 1000px) {
     .image-container .rows .images {
-        flex: 1 1 calc(30% - 20px);
+        width: 100%;
+        height: 310px;
+        margin: 0%;
+        padding: 1%;
+        /* padding: 0%; */
+    }
+    .image-container .rows .images .place-image{
+
+     height: 100px;
+      margin: 0%;
+      padding: 3px;
+
+      /* padding: 0%; */
+    }
+    .image-container .rows .images .place-image img {
+        width: 100%;
+        height: 90%;
+    }
+
+    .name-section h2{
+        font-size: 40px;
+        line-height: 1;
     }
 }
 
 
-@media screen and (max-width: 992px) {
+
+
+
+
+@media screen and (max-width: 900px) {
     .image-container .rows .images {
-        flex: 1 1 calc(50% - 20px);
+        width: 100%;
+        height: 310px;
+        margin: 0%;
+        padding: 1%;
+        /* padding: 0%; */
+    }
+    .image-container .rows .images .place-image{
+
+     height: 100px;
+      margin: 0%;
+      padding: 3px;
+
+      /* padding: 0%; */
+    }
+    .image-container .rows .images .place-image img {
+        width: 100%;
+        height: 90%;
+    }
+
+    .name-section h2{
+        font-size: 40px;
+        line-height: 1;
     }
 }
+
+
+
+@media screen and (max-width: 800px) {
+    .image-container .rows .images {
+        width: 100%;
+        height: 250px;
+        margin: 0%;
+        padding: 1%;
+        /* padding: 0%; */
+    }
+    .image-container .rows .images .place-image{
+
+     height: 100px;
+      margin: 0%;
+      padding: 3px;
+      /* padding: 0%; */
+    }
+    .image-container .rows .images .place-image img {
+        width: 100%;
+        height: 90%;
+    }
+    .name-section h2{
+        font-size: 40px;
+        line-height: 1;
+    }
+}
+
 
 @media screen and (max-width: 700px) {
     .image-container .rows .images {
-        flex: 1 1 calc(100% - 20px);
-    }
-}
-
-/* For screens less than 576px: 1 item per row */
-@media screen and (max-width: 576px) {
-    .image-container .rows .images {
-        flex: 1 1 100%;
-        /* background-color: red; */
-    }
-}
-
-
-
-@media screen and (max-width : 470px) {
-    .image-container .rows {
         width: 100%;
-        /* background-color: blue; */
-        margin-left: -50px;
-        padding: 0;
+        height: 120px;
+        margin: 0%;
+        padding: 1%;
+        /* padding: 0%; */
+    }
+    .image-container .rows .images .place-image{
+
+     height: 100px;
+      margin: 0%;
+      padding: 3px;
+      /* padding: 0%; */
+    }
+    .image-container .rows .images .place-image img {
+        width: 100%;
+        height: 90%;
+    }
+
+    .name-section h2{
+        font-size: 40px;
+        line-height: 1;
     }
 }
 
-@media screen and (max-width : 396px) {
-    .image-container .rows {
-        width: 100%;
-        /* background-color: blue; */
-        margin-left: 0px;
-        padding: 0;
-    }
+
+@media screen and (max-width: 600px) {
+    .name-section .heading{
+        font-size: 20px;
+      }
+      .name-section h2{
+          font-size: 30px;
+      }
 }
