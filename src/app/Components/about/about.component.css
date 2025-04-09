@@ -1,0 +1,337 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.about-container{
+    width: 100%;
+    height: auto;
+    /* background-color: gray; */
+    padding: 40px 100px 0px 100px;
+    margin-top: 50px;
+}
+
+.about-container .card{
+    width: 100%;
+    height: 400px;
+    background: #F3F3F3;
+    border: 1px solid #F3F3F3;
+    border-radius: 18px;
+    font-family: Space Grotesk;
+    display: flex;
+    flex-direction: row;
+}
+.about-container .card .left-section {
+    width: 100%;
+    height: 100%;
+
+}
+.about-container .card .left-section img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px 0px 0px 18px;
+}
+
+.about-container .card .right-section{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    padding: 40px 20px 0px 30px;
+    border-radius: 0px 18px 18px 0px;
+}
+
+.about-container .card .right-section h2{
+    font-family: Space Grotesk;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    width: 531px;
+    /* height: 231px; */
+    color: #000000;   
+}
+.about-container .card .right-section p{
+    /* width: 498px; */
+    /* height: 140px; */
+    font-family: Space Grotesk;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Impact Section */
+
+.about-container .impact{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    /* background: #F3F3F3; */
+    border: none;
+    /* border-radius: 18px; */
+    font-family: Space Grotesk;
+    display: flex;
+    flex-direction: row;
+}
+
+.about-container .impact .left-section{
+    width: 50%;
+    height: 100px;
+    margin-top: 30px;
+}
+
+.about-container .impact .left-section h2{
+    font-family: Space Grotesk;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    /* width: 531px; */
+    color: #000000;
+    background-color: #B9FF66;
+    height: 35px;
+    border-radius: 8px;
+}
+
+
+.about-container .impact .right-section{
+    font-family: Space Grotesk;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0;
+    text-align: justify;
+    padding: 0px 20px 0px 20px;
+}
+
+.about-container .impact .right-section p{
+    font-family: Space Grotesk;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tablet view (up to 768px) */
+@media screen and (max-width: 768px) {
+    .about-container{
+        flex-direction: column;
+        height: auto;
+        padding: 40px 20px;
+        margin-top: 20px;
+    }
+
+    .about-container .card{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 0px 0px 40px 0px;
+        color: black;
+    }
+    .about-container .card .left-section img{
+        width: 100%;
+        height: 600px;
+        border-radius: 0px 0px 18px 18px;
+
+    }
+
+    .about-container .card .right-section p {
+        font-size: 18px;
+        padding: 0px 0px 0px 10px;
+        text-align: justify;
+        color: black;
+        font-family:Space Grotesk ;
+        line-height: 30px;
+    }
+
+
+
+
+
+    /*  Impact Section */
+
+    .about-container .impact{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-container .impact .left-section{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        
+        justify-content: center;
+    }
+    .about-container .impact .left-section h2{
+        font-size: 40px;
+        color: black;
+        line-height: normal;
+        height: 50px;
+        width: 500px;
+        font-family:Space Grotesk ;
+    }
+
+    .about-container .impact .right-section{
+        width: 100%;
+        height: auto;
+    }
+    .about-container .impact .right-section p{
+        font-size: 22px;
+        line-height: 24px;
+        padding: 0px 0px 0px 10px;
+        text-align: justify;
+        color: black;
+        font-family:Space Grotesk ;
+        line-height: 30px;
+    }
+
+
+
+
+
+
+    
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile view (up to 480px) */
+@media screen and (max-width: 480px) {
+    .about-container {
+        width: 100%;
+        height: auto;
+        /* background-color: red; */
+        margin: 0px 0px 20px 0px;
+    }
+    .about-container .card{
+        width: 100%;
+        height: auto;
+        padding: 0px 0px 20px 0px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .about-container .card .left-section img{
+        width: 100%;
+        height: 300px;
+        border-radius: 0px 0px 18px 18px;
+        margin-top: 40px;
+    }
+    .about-container .card .right-section h2{
+        font-size: 28px;
+        margin-top: 0px;
+        font-family:Space Grotesk ;
+        /* background-color: blue; */
+    }
+
+
+
+
+
+
+/*  Impact Section */
+
+.about-container .impact{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-container .impact .left-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+.about-container .impact .left-section h2{
+    font-size: 28px;
+    color: black;
+    line-height: normal;
+    height: 35px;
+    width: 400px;
+    font-family:Space Grotesk ;
+}
+
+.about-container .impact .right-section{
+    width: 100%;
+    height: auto;
+}
+.about-container .impact .right-section p{
+    font-size: 25px;
+    font-family:Space Grotesk ;
+    line-height: 30px;
+    padding: 0px 0px 0px 10px;
+    text-align: justify;
+    color: black;
+}
+
+
+
+
+
+
+
+
+}

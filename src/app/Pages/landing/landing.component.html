@@ -1,40 +1,6 @@
-<div class="container">
-    <div class="row hero-section align-items-center">
-        <!-- Left Side Container -->
-        <div class="col-lg-6 col-md-6 col-12 left-side">
-           <app-hero-lef-side></app-hero-lef-side>
-        </div>
-        <div class="col-lg-6 col-md-6 col-12 right-side">
-            <app-hero-right-side></app-hero-right-side>
-        </div>
-    </div>
+<div class="container-fluid">
+  <app-navbar></app-navbar>
 
-
-
-
-    <!--  About Section -->
-    <div class="row about-section align-items-center"  id="about" #animatedSection>
-          <div class="heading">
-            <h2> About Us</h2>
-          </div>
-        <div class="col-lg-6 col-md-6 col-12 aboutleft-side">
-           <app-about-left-side></app-about-left-side>
-        </div>
-        
-        <div class="col-lg-6 col-md-6 col-12 aboutright-side">
-            <app-about-right-side></app-about-right-side>
-        </div>
-    </div>
-
-
-
-
-    <!--  Services Section  -->
-    <div class="row services-section align-items-center" id="services">
-        <div class="heading">
-          <h2> Services </h2>
-        </div>
-        <app-service-cards></app-service-cards>
-  </div>
-
+  <app-hero-section></app-hero-section>
+  <app-about></app-about>
 </div>
