@@ -1,14 +1,10 @@
 import { CommonModule } from '@angular/common';
 import {  Component, ElementRef,OnInit, ViewChild } from '@angular/core';
-import { HeroLefSideComponent } from "../../Components/Hero-components/hero-lef-side/hero-lef-side.component";
-import { HeroRightSideComponent } from '../../Components/Hero-components/hero-right-side/hero-right-side.component';
-import { AboutLeftSideComponent } from "../../Components/About-components/about-left-side/about-left-side.component";
-import { AboutRightSideComponent } from "../../Components/About-components/about-right-side/about-right-side.component";
-import { ServiceCardsComponent } from "../../Components/Service-components/service-cards/service-cards.component";
 import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { NavbarComponent } from '../../Components/navbar/navbar.component';
 import { Console } from 'console';
-import { ProjectsComponent } from '../../Components/Projects/projects/projects.component';
+import { HeroSectionComponent } from "../../Components/hero/hero-section/hero-section.component";
+import { AboutComponent } from "../../Components/about/about.component";
 
 
 
@@ -20,15 +16,10 @@ import { ProjectsComponent } from '../../Components/Projects/projects/projects.c
   imports: [
     CommonModule,
     NavbarComponent,
-    HeroLefSideComponent,
-    HeroRightSideComponent,
-    HeroLefSideComponent,
-    AboutLeftSideComponent,
-    AboutRightSideComponent,
-    ServiceCardsComponent,
-    ProjectsComponent,
-    ReactiveFormsModule
-  ],
+    ReactiveFormsModule,
+    HeroSectionComponent,
+    AboutComponent
+],
   templateUrl: './landing.component.html',
   styleUrls: ['./landing.component.css']
 })
