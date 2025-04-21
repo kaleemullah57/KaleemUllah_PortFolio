@@ -1,7 +1,5 @@
 .navbar {
-    /* padding: 0px 120px 0px 70px; */
     height: 60px;
-    /* background-color: rgb(15, 7, 21) !important; */
     background-color: transparent !important;
     position: sticky;
     top: 0;
@@ -12,15 +10,24 @@
     justify-content: space-between;
     align-items: center;
     overflow-x: hidden;
+    padding: 0.5rem 6.5rem;
 }
 
-a {
+.navbar a {
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     color: black;
     cursor: pointer;
     text-decoration: none;
     transition: color 0.3s ease-in-out;
+}
+
+.navbar a img{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 8px;
+
 }
 
 .navbar-nav .nav-link {
@@ -63,8 +70,9 @@ a {
 
 @media (max-width: 768px) {
     .navbar {
-        flex-direction: column;
+        flex-direction: row;
         padding: 0 20px;
+        margin: 40px 0px 0px 0px;
         height: auto;
         align-items: flex-start;
     }
@@ -84,6 +92,8 @@ a {
 @media (max-width: 480px) {
     .navbar {
         padding: 0 10px;
+        display: flex;
+        flex-direction: row;
     }
 
     a, .navbar-nav .nav-link {

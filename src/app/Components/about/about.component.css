@@ -1,17 +1,19 @@
-*{
+* {
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
 }
-.about-container{
+
+.about-container {
     width: 100%;
     height: auto;
     /* background-color: gray; */
     padding: 40px 100px 0px 100px;
     margin-top: 50px;
+    margin: 0px 0px auto 0px;
 }
 
-.about-container .card{
+.about-container .card {
     width: 100%;
     height: 400px;
     background: #F3F3F3;
@@ -21,18 +23,20 @@
     display: flex;
     flex-direction: row;
 }
+
 .about-container .card .left-section {
     width: 100%;
     height: 100%;
 
 }
-.about-container .card .left-section img{
+
+.about-container .card .left-section img {
     width: 100%;
     height: 100%;
     border-radius: 18px 0px 0px 18px;
 }
 
-.about-container .card .right-section{
+.about-container .card .right-section {
     width: 100%;
     height: 100%;
     /* background-color: red; */
@@ -40,7 +44,7 @@
     border-radius: 0px 18px 18px 0px;
 }
 
-.about-container .card .right-section h2{
+.about-container .card .right-section h2 {
     font-family: Space Grotesk;
     font-weight: 500;
     font-size: 60px;
@@ -48,9 +52,10 @@
     letter-spacing: 0%;
     width: 531px;
     /* height: 231px; */
-    color: #000000;   
+    color: #000000;
 }
-.about-container .card .right-section p{
+
+.about-container .card .right-section p {
     /* width: 498px; */
     /* height: 140px; */
     font-family: Space Grotesk;
@@ -79,7 +84,7 @@
 
 /* Impact Section */
 
-.about-container .impact{
+.about-container .impact {
     width: 100%;
     height: auto;
     margin-top: 20px;
@@ -91,13 +96,13 @@
     flex-direction: row;
 }
 
-.about-container .impact .left-section{
+.about-container .impact .left-section {
     width: 50%;
     height: 100px;
     margin-top: 30px;
 }
 
-.about-container .impact .left-section h2{
+.about-container .impact .left-section h2 {
     font-family: Space Grotesk;
     font-weight: 500;
     font-size: 30px;
@@ -111,7 +116,7 @@
 }
 
 
-.about-container .impact .right-section{
+.about-container .impact .right-section {
     font-family: Space Grotesk;
     font-weight: 400;
     font-size: 20px;
@@ -121,7 +126,7 @@
     padding: 0px 20px 0px 20px;
 }
 
-.about-container .impact .right-section p{
+.about-container .impact .right-section p {
     font-family: Space Grotesk;
     font-weight: 400;
     font-size: 20px;
@@ -144,16 +149,108 @@
 
 
 
+
+
+
+
+
+
+/* Numbers Section CSS */
+.about-container .impact-container {
+    width: 100%;
+    height: auto;
+    color: black;
+    background: #F3F3F3;
+    padding: 20px;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: space-between;
+    margin: -20px 0px 0px 0px;
+}
+
+.about-container .impact-container .number1,
+.about-container .impact-container .number2,
+.about-container .impact-container .number3,
+.about-container .impact-container .number4 {
+    /* background-color: red; */
+    width: 100%;
+    padding: 10px;
+    border-top: 2px solid black;
+    /* border-radius: 18px; */
+    position: relative;
+    font-family: Space Grotesk;
+    font-size: 20px;
+}
+
+
+.about-container .impact-container .number1::before,
+.about-container .impact-container .number2::before,
+.about-container .impact-container .number3::before,
+.about-container .impact-container .number4::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 80px;
+    background-color: black;
+    border-top-left-radius: 10px;
+}
+
+
+
+
+.about-container .impact-container .number1 h3,
+.about-container .impact-container .number2 h3,
+.about-container .impact-container .number3 h3,
+.about-container .impact-container .number4 h3 {
+    font-family: Space Grotesk;
+    font-size: 32px;
+    color: black;
+    font-weight: 800;
+}
+
+.about-container .impact-container .number1 p,
+.about-container .impact-container .number2 p,
+.about-container .impact-container .number3 p,
+.about-container .impact-container .number4 p {
+    /* background-color: red; */
+    /* width: 100%; */
+    /* padding: 10px; */
+    /* border-top: 2px solid black; */
+    /* border-radius: 18px; */
+    /* position: relative; */
+    font-family: Space Grotesk;
+    font-size: 18px;
+    color: gray;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Tablet view (up to 768px) */
 @media screen and (max-width: 768px) {
-    .about-container{
+    .about-container {
         flex-direction: column;
         height: auto;
         padding: 40px 20px;
         margin-top: 20px;
     }
 
-    .about-container .card{
+    .about-container .card {
         width: 100%;
         height: auto;
         display: flex;
@@ -161,14 +258,15 @@
         padding: 0px 0px 40px 0px;
         color: black;
     }
-    .about-container .card .left-section img{
+
+    .about-container .card .left-section img {
         width: 100%;
         height: 600px;
         border-radius: 0px 0px 18px 18px;
 
     }
 
-    .about-container .card .right-section h2{
+    .about-container .card .right-section h2 {
         font-size: 40px;
         color: black;
     }
@@ -178,7 +276,7 @@
         padding: 0px 0px 0px 10px;
         text-align: justify;
         color: black;
-        font-family:Space Grotesk ;
+        font-family: Space Grotesk;
         line-height: 30px;
     }
 
@@ -188,7 +286,7 @@
 
     /*  Impact Section */
 
-    .about-container .impact{
+    .about-container .impact {
         width: 100%;
         height: auto;
         display: flex;
@@ -198,35 +296,37 @@
         align-items: center;
     }
 
-    .about-container .impact .left-section{
+    .about-container .impact .left-section {
         width: 100%;
         height: auto;
         display: flex;
         flex-direction: row;
         text-align: center;
-        
+
         justify-content: center;
     }
-    .about-container .impact .left-section h2{
+
+    .about-container .impact .left-section h2 {
         font-size: 40px;
         color: black;
         line-height: normal;
         height: 50px;
         width: 500px;
-        font-family:Space Grotesk ;
+        font-family: Space Grotesk;
     }
 
-    .about-container .impact .right-section{
+    .about-container .impact .right-section {
         width: 100%;
         height: auto;
     }
-    .about-container .impact .right-section p{
+
+    .about-container .impact .right-section p {
         font-size: 22px;
         line-height: 24px;
         padding: 0px 0px 0px 10px;
         text-align: justify;
         color: black;
-        font-family:Space Grotesk ;
+        font-family: Space Grotesk;
         line-height: 30px;
     }
 
@@ -235,9 +335,57 @@
 
 
 
-    
 
-    
+
+
+
+
+    /*  Numbers Section TO Make it Responsive */
+    .about-container .impact-container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .about-container .impact-container .number1,
+    .about-container .impact-container .number2,
+    .about-container .impact-container .number3,
+    .about-container .impact-container .number4 {
+        width: 49%;
+        height: auto;
+        box-sizing: border-box;
+        color: white;
+        margin: 0px;
+        gap: 0;
+    }
+
+
+
+    .about-container .impact-container .number1 h3,
+    .about-container .impact-container .number2 h3,
+    .about-container .impact-container .number3 h3,
+    .about-container .impact-container .number4 h3{
+        text-align: center;
+        color: black;
+        font-size: 25px;
+        font-family: Space Grotesk;
+    }
+
+
+    .about-container .impact-container .number1 p,
+    .about-container .impact-container .number2 p,
+    .about-container .impact-container .number3 p,
+    .about-container .impact-container .number4 p{
+        text-align: center;
+        color: gray;
+        font-size: 16px;
+        font-family: Space Grotesk;
+    }
+
+
 }
 
 
@@ -265,23 +413,26 @@
         /* background-color: red; */
         margin: 0px 0px 20px 0px;
     }
-    .about-container .card{
+
+    .about-container .card {
         width: 100%;
         height: auto;
         padding: 0px 0px 20px 0px;
         display: flex;
         flex-direction: column-reverse;
     }
-    .about-container .card .left-section img{
+
+    .about-container .card .left-section img {
         width: 100%;
         height: 300px;
         border-radius: 0px 0px 18px 18px;
         margin-top: 40px;
     }
-    .about-container .card .right-section h2{
+
+    .about-container .card .right-section h2 {
         font-size: 28px;
         margin-top: 0px;
-        font-family:Space Grotesk ;
+        font-family: Space Grotesk;
         /* background-color: blue; */
     }
 
@@ -290,47 +441,49 @@
 
 
 
-/*  Impact Section */
+    /*  Impact Section */
 
-.about-container .impact{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
+    .about-container .impact {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
 
-.about-container .impact .left-section{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    justify-content: center;
-}
-.about-container .impact .left-section h2{
-    font-size: 28px;
-    color: black;
-    line-height: normal;
-    height: 35px;
-    width: 400px;
-    font-family:Space Grotesk ;
-}
+    .about-container .impact .left-section {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+    }
 
-.about-container .impact .right-section{
-    width: 100%;
-    height: auto;
-}
-.about-container .impact .right-section p{
-    font-size: 25px;
-    font-family:Space Grotesk ;
-    line-height: 30px;
-    padding: 0px 0px 0px 10px;
-    text-align: justify;
-    color: black;
-}
+    .about-container .impact .left-section h2 {
+        font-size: 28px;
+        color: black;
+        line-height: normal;
+        height: 35px;
+        width: 400px;
+        font-family: Space Grotesk;
+    }
+
+    .about-container .impact .right-section {
+        width: 100%;
+        height: auto;
+    }
+
+    .about-container .impact .right-section p {
+        font-size: 25px;
+        font-family: Space Grotesk;
+        line-height: 30px;
+        padding: 0px 0px 0px 10px;
+        text-align: justify;
+        color: black;
+    }
 
 
 
