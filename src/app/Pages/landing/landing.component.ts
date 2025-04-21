@@ -5,6 +5,8 @@ import { NavbarComponent } from '../../Components/navbar/navbar.component';
 import { Console } from 'console';
 import { HeroSectionComponent } from "../../Components/hero/hero-section/hero-section.component";
 import { AboutComponent } from "../../Components/about/about.component";
+import { ProjectsComponent } from "../../Components/projects/projects.component";
+import { FooterComponent } from "../../Components/footer/footer.component";
 
 
 
@@ -18,7 +20,9 @@ import { AboutComponent } from "../../Components/about/about.component";
     NavbarComponent,
     ReactiveFormsModule,
     HeroSectionComponent,
-    AboutComponent
+    AboutComponent,
+    ProjectsComponent,
+    FooterComponent
 ],
   templateUrl: './landing.component.html',
   styleUrls: ['./landing.component.css']

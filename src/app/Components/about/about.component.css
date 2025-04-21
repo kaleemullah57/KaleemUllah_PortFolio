@@ -430,7 +430,8 @@
     }
 
     .about-container .card .right-section h2 {
-        font-size: 28px;
+        font-size: 24px;
+        font-weight: 800;
         margin-top: 0px;
         font-family: Space Grotesk;
         /* background-color: blue; */
@@ -475,9 +476,10 @@
         width: 100%;
         height: auto;
     }
+    
 
     .about-container .impact .right-section p {
-        font-size: 25px;
+        font-size: 20px;
         font-family: Space Grotesk;
         line-height: 30px;
         padding: 0px 0px 0px 10px;

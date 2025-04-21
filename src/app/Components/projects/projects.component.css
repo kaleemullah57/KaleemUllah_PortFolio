@@ -1,0 +1,325 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+/* 
+background: #F3F3F3;
+border: 1px solid #F3F3F3;
+border-radius: 18px;
+font-family: Space Grotesk; */
+
+
+.projects-mainContainer {
+    width: 100%;
+    height: auto;
+    /* background-color: gray; */
+    padding: 40px 100px 0px 100px;
+    margin-top: 50px;
+    margin: 0px 0px auto 0px;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.projects-mainContainer .container1,
+.projects-mainContainer .container2,
+.projects-mainContainer .container3,
+.projects-mainContainer .container4,
+.projects-mainContainer .container5 {
+    width: 100%;
+    height: auto;
+    padding: 0px 20px 0px 20px;
+    margin: 20px 0px 0px 0px;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 20px 0px 20px 20px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.projects-mainContainer .container1 .horizentol-line,
+.projects-mainContainer .container2 .horizentol-line,
+.projects-mainContainer .container3 .horizentol-line,
+.projects-mainContainer .container4 .horizentol-line,
+.projects-mainContainer .container5 .horizentol-line {
+    color: black;
+    border: 1px solid gray;
+    margin: 20px 34px 0px 0px;
+}
+
+
+.projects-mainContainer .container1 .paragraph,
+.projects-mainContainer .container2 .paragraph,
+.projects-mainContainer .container3 .paragraph,
+.projects-mainContainer .container4 .paragraph,
+.projects-mainContainer .container5 .paragraph {
+    width: 1114;
+    height: 60;
+    padding: 20px 0px 20px 20px;
+}
+
+.projects-mainContainer .container1 .paragraph p {
+    font-size: 18px;
+    font-family: Space Grotesk;
+    color: gray;
+    padding: 0px 20px 0px 0px;  
+}
+
+
+.projects-mainContainer .container1 .container-header,
+.projects-mainContainer .container2 .container-header,
+.projects-mainContainer .container3 .container-header,
+.projects-mainContainer .container4 .container-header,
+.projects-mainContainer .container5 .container-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    font-family: Space Grotesk;
+}
+
+.projects-mainContainer .container1 .container-header .left-section,
+.projects-mainContainer .container2 .container-header .left-section,
+.projects-mainContainer .container3 .container-header .left-section,
+.projects-mainContainer .container4 .container-header .left-section,
+.projects-mainContainer .container5 .container-header .left-section {
+    /* font-size: 30px;
+    display: flex;
+    flex-direction: row; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.projects-mainContainer .container1 .container-header .left-section h2,
+.projects-mainContainer .container2 .container-header .left-section h2,
+.projects-mainContainer .container3 .container-header .left-section h2,
+.projects-mainContainer .container4 .container-header .left-section h2,
+.projects-mainContainer .container5 .container-header .left-section h2 {
+    font-size: 60px;
+    font-family: Space Grotesk;
+    padding: 0px 20px 0px 0px;
+}
+
+
+.projects-mainContainer .container1 .container-header .left-section h3,
+.projects-mainContainer .container2 .container-header .left-section h3,
+.projects-mainContainer .container3 .container-header .left-section h3,
+.projects-mainContainer .container4 .container-header .left-section h3,
+.projects-mainContainer .container5 .container-header .left-section h3 {
+    font-size: 30px;
+    font-family: Space Grotesk;
+    padding: 20px 20px 0px 0px;
+}
+
+
+.projects-mainContainer .container1 .logo,
+.projects-mainContainer .container2 .logo,
+.projects-mainContainer .container3 .logo,
+.projects-mainContainer .container4 .logo,
+.projects-mainContainer .container5 .logo {
+    width: 10%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-mainContainer .container1 .logo p,
+.projects-mainContainer .container2 .logo p,
+.projects-mainContainer .container3 .logo p,
+.projects-mainContainer .container4 .logo p,
+.projects-mainContainer .container5 .logo p {
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tablet view (up to 768px) */
+@media screen and (max-width: 768px) {
+    .projects-mainContainer{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .projects-mainContainer .container1,
+    .projects-mainContainer .container2,
+    .projects-mainContainer .container3,
+    .projects-mainContainer .container4,
+    .projects-mainContainer .container5{
+        border-radius: 50px;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/*  Mobile Responsive Code CSS */
+@media screen and (max-width: 480px) {
+    .projects-mainContainer{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .projects-mainContainer .container1,
+    .projects-mainContainer .container2,
+    .projects-mainContainer .container3,
+    .projects-mainContainer .container4,
+    .projects-mainContainer .container5{
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .projects-mainContainer .container1 .container-header,
+    .projects-mainContainer .container2 .container-header,
+    .projects-mainContainer .container3 .container-header,
+    .projects-mainContainer .container4 .container-header,
+    .projects-mainContainer .container5 .container-header{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .projects-mainContainer .container1 .container-header .left-section h2,
+    .projects-mainContainer .container2 .container-header .left-section h2,
+    .projects-mainContainer .container3 .container-header .left-section h2,
+    .projects-mainContainer .container4 .container-header .left-section h2,
+    .projects-mainContainer .container5 .container-header .left-section h2{
+        font-size: 25px;
+        margin-top: 15px;
+    }
+    .projects-mainContainer .container1 .container-header .left-section h3,
+    .projects-mainContainer .container2 .container-header .left-section h3,
+    .projects-mainContainer .container3 .container-header .left-section h3,
+    .projects-mainContainer .container4 .container-header .left-section h3,
+    .projects-mainContainer .container5 .container-header .left-section h3{
+        font-size: 20px;
+    }
+
+    .projects-mainContainer .container1 .container-header .logo,
+    .projects-mainContainer .container2 .container-header .logo,
+    .projects-mainContainer .container3 .container-header .logo,
+    .projects-mainContainer .container4 .container-header .logo,
+    .projects-mainContainer .container5 .container-header .logo{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        padding: 0px 20px 0px 0px;
+    }
+
+    .projects-mainContainer .container1 .container-header .logo p,
+    .projects-mainContainer .container2 .container-header .logo p,
+    .projects-mainContainer .container3 .container-header .logo p,
+    .projects-mainContainer .container4 .container-header .logo p,
+    .projects-mainContainer .container5 .container-header .logo p{
+        color: black;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.blink {
+    animation: blinkFade 0.5s ease-in-out;
+  }
+  
+  @keyframes blinkFade {
+    0% {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1.02);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  

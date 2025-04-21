@@ -1,0 +1,120 @@
+<div class="projects-mainContainer">
+
+
+
+    <!--  Container1  -->
+    <div class="container1">
+        <div class="container-header">
+            <div class="left-section">
+                <h2> 01 </h2>
+                <h3> Consultation </h3>
+            </div>
+
+            <div class="logo">
+                <p (click)="toggleData1()"> {{showData1 ? ' + ' : ' - '}} </p>
+            </div>
+        </div>
+        <div class="horizentol-line" *ngIf="showData1" [ngClass]="{'blink': blink1}"></div>
+        <div class="paragraph" *ngIf="showData1" [ngClass]="{'blink': blink1}">
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut unde libero molestiae adipisci voluptatibus
+                autem sapiente, repellat ipsa dolorum? Nisi maiores veniam, sit a harum vel nesciunt ullam veritatis
+                accusamus eum ipsum. Quaerat quae, consectetur tempora sunt nam modi veniam, eligendi magnam tenetur
+                autem quasi accusamus aspernatur iusto laboriosam labore.</p>
+        </div>
+
+    </div>
+
+
+
+
+
+    <!--  Container 2 -->
+    <div class="container2">
+        <div class="container-header">
+            <div class="left-section">
+                <h2> 02 </h2>
+                <h3> Consultation </h3>
+            </div>
+
+            <div class="logo">
+                <p (click)="toggleData2()"> {{showData2 ? ' + ' : ' - '}} </p>
+            </div>
+        </div>
+        <div class="horizentol-line" *ngIf="showData2" ></div>
+        <div class="paragraph" *ngIf="showData2" [ngClass]="{ 'blink': blink2 }">
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut unde libero molestiae adipisci voluptatibus
+                autem sapiente, repellat ipsa dolorum? Nisi maiores veniam, sit a harum vel nesciunt ullam veritatis
+                accusamus eum ipsum. Quaerat quae, consectetur tempora sunt nam modi veniam, eligendi magnam tenetur
+                autem quasi accusamus aspernatur iusto laboriosam labore.</p>
+        </div>
+
+    </div>
+
+
+
+    <!--  Container 3 -->
+    <div class="container3">
+        <div class="container-header">
+            <div class="left-section">
+                <h2> 03 </h2>
+                <h3> Implementation </h3>
+            </div>
+
+            <div class="logo">
+                <p (click)="toggleData3()"> {{ showData3 ? ' + ': ' - '}} </p>
+            </div>
+        </div>
+        <div class="horizentol-line" *ngIf="showData3"></div>
+        <div class="paragraph" *ngIf="showData3" [ngClass]="{ 'blink': blink3}">
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut unde libero molestiae adipisci voluptatibus
+                autem sapiente, repellat ipsa dolorum? Nisi maiores veniam, sit a harum vel nesciunt ullam veritatis
+                accusamus eum ipsum. Quaerat quae, consectetur tempora sunt nam modi veniam, eligendi magnam tenetur
+                autem quasi accusamus aspernatur iusto laboriosam labore.</p>
+        </div>
+    </div>
+
+
+    <!-- Container 4  -->
+    <div class="container4">
+        <div class="container-header">
+            <div class="left-section">
+                <h2> 04 </h2>
+                <h3> Monetoring and Optimization </h3>
+            </div>
+
+            <div class="logo">
+                <p (click)="toggleData4()"> {{ showData4 ? ' + ': ' - ' }} </p>
+            </div>
+        </div>
+        <div class="horizentol-line" *ngIf="showData4"></div>
+        <div class="paragraph" *ngIf="showData4" [ngClass]="{ 'blink' : blink4}">
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut unde libero molestiae adipisci voluptatibus
+                autem sapiente, repellat ipsa dolorum? Nisi maiores veniam, sit a harum vel nesciunt ullam veritatis
+                accusamus eum ipsum. Quaerat quae, consectetur tempora sunt nam modi veniam, eligendi magnam tenetur
+                autem quasi accusamus aspernatur iusto laboriosam labore.</p>
+        </div>
+    </div>
+
+
+
+    <!-- Container 5  -->
+    <div class="container5">
+        <div class="container-header">
+            <div class="left-section">
+                <h2> 05 </h2>
+                <h3> Reporting and Communication </h3>
+            </div>
+
+            <div class="logo">
+                <p (click)="toggleData5()"> {{ showData5 ? ' + ': ' - ' }}  </p>
+            </div>
+        </div>
+        <div class="horizentol-line" *ngIf="showData5"></div>
+        <div class="paragraph" *ngIf="showData5" [ngClass]="{'blink': blink5}">
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut unde libero molestiae adipisci voluptatibus
+                autem sapiente, repellat ipsa dolorum? Nisi maiores veniam, sit a harum vel nesciunt ullam veritatis
+                accusamus eum ipsum. Quaerat quae, consectetur tempora sunt nam modi veniam, eligendi magnam tenetur
+                autem quasi accusamus aspernatur iusto laboriosam labore.</p>
+        </div>
+    </div>
+</div>

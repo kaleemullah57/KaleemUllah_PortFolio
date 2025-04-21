@@ -1,0 +1,604 @@
+.footer-container {
+    width: 100%;
+    height: auto;
+    /* background-color: gray; */
+    padding: 40px 100px 0px 100px;
+    margin-top: 50px;
+    margin: 0px 0px auto 0px;
+}
+
+.footer-container .first-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 20px 30px 20px 30px;
+}
+
+
+.footer-container .first-section .top-header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: gray; */
+    border-top-left-radius: 80px;
+}
+
+
+.footer-container .first-section .top-header .logo-section {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+
+}
+
+.footer-container .first-section .top-header .logo-section img {
+    width: 40px;
+    height: 35px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.footer-container .first-section .top-header .logo-section h2 {
+    font-size: 35px;
+    font-family: Space Grotesk;
+    margin-top: 10px;
+    color: white;
+}
+
+
+
+
+
+
+.footer-container .first-section .top-header .middle-section {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-container .first-section .top-header .middle-section p {
+    color: white;
+    font-size: 20px;
+    font-family: Space Drotesk;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.footer-container .first-section .top-header .middle-section p a {
+    color: white;
+    font-size: 20px;
+    font-family: Space Drotesk;
+    margin-top: 10px;
+    text-decoration: none;
+
+}
+
+
+
+
+.footer-container .first-section .top-header .end-section {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    text-align: center;
+}
+
+.footer-container .first-section .top-header .end-section p {
+    color: white;
+    font-size: 20px;
+    font-family: Space Drotesk;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+
+
+
+
+
+
+
+/* Second Section  */
+.footer-container .second-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px 30px 20px 30px;
+}
+
+.footer-container .second-section .left-section {
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-container .second-section .left-section button {
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    background-color: gray;
+    color: white;
+    font-size: 20px;
+    font-family: Space Grestok;
+    border-radius: 12px;
+    margin: 0px 0px 14px 0px;
+}
+
+.footer-container .second-section .left-section .Email,
+.footer-container .second-section .left-section .Phone,
+.footer-container .second-section .left-section .Address {
+    font-size: 20px;
+    font-family: Space Grestok;
+    color: white;
+}
+
+.footer-container .second-section .right-section {
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+/* Middle Section  */
+/* Right Section CSS */
+.footer-container .second-section .right-section {
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-container .second-section .right-section .form {
+    width: 100%;
+    background-color: rgb(22, 22, 24);
+    height: 150px;
+    margin: 30px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 12px;
+    padding: 0px 20px 0px 20px;
+}
+
+.footer-container .second-section .right-section .form input {
+    width: 250px;
+    height: 50px;
+    margin: 0px 10px 0px 0px;
+    border-radius: 8px;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.footer-container .second-section .right-section .form button {
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: rgb(113, 197, 113);
+    border: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Third Section */
+.footer-container .third-section {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+
+}
+
+.footer-container .third-section .line-section {
+    width: 100%;
+    height: 1px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container .third-section .line-section .horizentol-line {
+    width: 95%;
+    height: 1px;
+    background-color: white;
+    margin: 0px;
+}
+
+
+.footer-container .third-section .end-section {
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-container .third-section .end-section .paragraphs {
+    color: white;
+    font-size: 20px;
+    font-family: Space Gerstoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer-container .third-section .end-section p {
+    color: white;
+    font-size: 20px;
+    font-family: Space Gerstoke;
+    margin: 20px 20px 0px 0px;
+    cursor: pointer;
+}
+
+.footer-container .third-section .end-section p a {
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tablet view (up to 768px) */
+@media screen and (max-width: 768px) {
+    .footer-container {
+        width: 100%;
+        height: auto;
+        padding: 0px;
+        margin: 0px;
+    }
+    .footer-container .first-section{
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-container .first-section .top-header {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        border-radius: 0px;
+    }
+
+    .footer-container .first-section .top-header .logo-section {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .footer-container .first-section .top-header .logo-section img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .footer-container .first-section .top-header .logo-section h2 {
+        font-size: 35px;
+        font-family: Space Grotesk;
+    }
+
+    .footer-container .first-section .top-header .middle-section {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        line-height: normal;
+    }
+
+    .footer-container .first-section .top-header .middle-section p a {
+        font-size: 32px;
+        font-family: Space Grotesk;
+        color: white;
+    }
+
+
+    .footer-container .first-section .top-header .end-section {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-container .first-section .top-header .end-section p {
+        font-size: 32px;
+        font-family: Space Grotesk;
+        color: white;
+    }
+
+
+
+
+
+
+
+    /*  Second Section */
+
+    .footer-container .second-section {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-container .second-section .left-section {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-container .second-section .left-section .Email,
+    .footer-container .second-section .left-section .Phone,
+    .footer-container .second-section .left-section .Address{
+        font-size: 25px;
+        font-family: Space Grotesk;
+        color: white;
+    }
+
+    .footer-container .second-section .right-section {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile view (up to 480px) */
+@media screen and (max-width: 480px) {
+    .footer-container {
+        width: 100%;
+        height: auto;
+        /* background-color: blue; */
+        padding: 0px;
+        margin: 0px;
+    }
+    .footer-container .first-section{
+        width: 100%;
+        /* background-color: green; */
+    }
+
+    .footer-container .first-section .top-header {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        border-radius: 0px;
+    }
+
+    .footer-container .first-section .top-header .logo-section {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .footer-container .first-section .top-header .logo-section img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .footer-container .first-section .top-header .logo-section h2 {
+        font-size: 25px;
+        font-family: Space Grotesk;
+    }
+
+    .footer-container .first-section .top-header .middle-section {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        line-height: normal;
+    }
+
+    .footer-container .first-section .top-header .middle-section p a {
+        font-size: 20px;
+        font-family: Space Grotesk;
+        color: white;
+    }
+
+
+    .footer-container .first-section .top-header .end-section {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-container .first-section .top-header .end-section p {
+        font-size: 20px;
+        font-family: Space Grotesk;
+        color: white;
+    }
+
+
+
+
+
+
+
+    /*  Second Section */
+
+    .footer-container .second-section {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-container .second-section .left-section {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-container .second-section .left-section .Email,
+    .footer-container .second-section .left-section .Phone,
+    .footer-container .second-section .left-section .Address{
+        font-size: 20px;
+        font-family: Space Grotesk;
+        color: white;
+    }
+
+    .footer-container .second-section .right-section {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-container .second-section .right-section .form{
+        width: 100%;
+        height: 182px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-container .second-section .right-section .form input{
+        width: 100%;
+        margin: 10px 0px 10px 0px;
+    }
+    .footer-container .second-section .right-section .form button{
+        width: 100%;
+        /* margin: 10px 0px 10px 0px; */
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /* Third Section */
+    .footer-container .third-section {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-container .third-section .end-section .paragraphs{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+    .footer-container .third-section .end-section .paragraphs p{
+        font-size: 14px;
+        font-family: Space Grotesk;
+        margin-bottom: 20px;
+    }
+}
